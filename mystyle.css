@@ -1,0 +1,74 @@
+/* Custom CSS */
+
+body{
+    background-color: black;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+.container-fluid{
+    padding: 0px 90px 0px 90px
+}
+
+.row{
+    padding:15px;
+    margin-bottom:10px;
+    max-width:100%;
+    max-height:auto;
+}
+
+.col{
+    width:100%;
+    margin: 15px;
+    padding:20px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #056905;
+    font-family:bokor;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  margin: 56px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+h1{
+    font-family:bokor;
+    color:white;
+}
+
+p{
+    font-family:baskerville;
+    color:white;
+}
+
+.boxhead{
+    color:#056905;
+}
+
+.box{
+    color:#707070;
+}
+
+footer{
+    background-color: #056905;
+}
