@@ -72,6 +72,10 @@ h1{
     color:white;
 }
 
+h2{
+   font-family: baskerville; 
+}
+
 p{
     font-family:baskerville;
     color:white;
@@ -79,10 +83,27 @@ p{
 
 .boxhead{
     color:#056905;
+    margin-bottom:-5px;
+}
+
+.boxsubhead{
+    color:#056905;
+}
+
+#about{
+    margin-top:30px;
 }
 
 .box{
     color:#707070;
+}
+
+.leftfloat{
+   float:left; 
+}
+
+.rightfloat{
+    float:right;
 }
 
 footer{
