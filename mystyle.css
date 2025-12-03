@@ -26,6 +26,8 @@ body{
     padding:20px;
 }
 
+/* NAV */
+
 nav ul{
     list-style-type: none;
     margin: 0;
@@ -39,27 +41,27 @@ nav a {
     font-size: 42px;
 }
 
-li {
+nav li {
     float: left;
 }
 
-li a {
+nav li a {
     display: block;
     color: white;
     padding: 14px 140px;
 }
 
-li a:hover {
+nav li a:hover {
   background-color: #BCDBBC;
 }
 
-li a:hover:not(.active) {
+nav li a:hover:not(.active) {
     background-color: #BCDBBC;
     text-decoration: none;
     color: #111;
 }
 
-li a.active {
+nav li a.active {
     background-color: #04AA6D;
 }
 
@@ -67,9 +69,12 @@ li a.active {
     padding-top: 0px;
 }
 
+/* NOT NAV */
+
 h1{
     font-family:bokor;
     color:white;
+    font-size: 48px;
 }
 
 h2{
@@ -79,6 +84,7 @@ h2{
 p{
     font-family:baskerville;
     color:white;
+    font-size:16pt;
 }
 
 .boxhead{
@@ -90,8 +96,13 @@ p{
     color:#056905;
 }
 
-#about{
+.about{
     margin-top:30px;
+}
+
+#reviews{
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .box{
@@ -106,6 +117,65 @@ p{
     float:right;
 }
 
+.pagetitle{
+    margin-top:30px;
+}
+
+.schedule{
+    color:#BCDBBC;
+    text-align: center;
+}
+
+/* FORM */
+.responsive-form {
+    max-width: 600px;
+    width: 100%;
+    background-color: #BCDBBC;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+fieldset{
+    background-color: #BCDBBC;
+}
+
+fieldset li{
+    list-style-type: none;
+    font-family:baskerville;
+    color:#707070;
+    font-size:16pt;
+}
+
+label[for=form-name] {
+    margin-top:40px
+}
+
+input{
+    width:90%;
+    margin:0px 0;
+}
+
+input[type=submit] {
+    width:30%;
+    font-size:30px;
+    background-color:#056905;
+    color:white;
+    font-family:bokor;
+    padding: 8px 16px;
+    margin: 50px 30px;
+    text-decoration: none;
+}
+
+textarea {
+  width: 90%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+/* FOOTER */
+
 footer{
     background-color: #056905;
     margin: 0;
@@ -113,12 +183,40 @@ footer{
     overflow: hidden;
 }
 
-.address{
-    margin-left: 90px;
+.copyright{
+    font-family:baskerville;
+    color:white;
+    float:none;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* SOCIALS */
+
+footer ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin-right: 90px;
     margin-top: 10px;
 }
 
-.copyright{
-    float:none;
-    text-align: center;
+footer a{
+    text-decoration: none;
+    color:white;
+}
+
+footer a:hover{
+    color:white;
+}
+
+.address{
+    font-family:baskerville;
+    color:white;
+    margin-left: 90px;
+    float:left;
+}
+
+.socials{
+    float:right;
+    margin-right:20px;
 }
