@@ -4,10 +4,46 @@ body{
     background-color: black;
 }
 
+/* Carousel */
+
 .carousel-inner img {
     width: 100%;
     height: 100%;
   }
+
+.carousel-item {
+  transition: transform .3s ease-in-out,-webkit-transform .3s ease-in-out
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.herotitle{
+    font-size: 3vw;
+}
+
+.herobody{
+    font-size: 1.5vw;
+}
+
+.herobutton{
+    width:100%;
+    font-size:2.5vw;
+    background-color:#BCDBBC;
+    color:#056905;
+    font-family:bokor;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+/* Not Carousel */
 
 .container-fluid{
     padding: 0px 90px 0px 90px
@@ -26,29 +62,50 @@ body{
     padding:20px;
 }
 
-/* NAV */
+.col-order{
+    margin: 15px;
+    padding:20px;
+    max-width:63%
+}
 
-nav ul{
+.imgresp{
+    width: 100%;
+    height: auto;
+}
+
+.test{
+    clear:left;
+}
+
+/* NAV */
+.menu{
+    width: 100%;
+    height: 90px;
+    margin: auto;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     background-color: #056905;
     font-family:bokor;
+    text-decoration: none;
 }
 
 nav a {
     font-size: 42px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 nav li {
     float: left;
+    width: 25%;
+    height: 100%;
 }
 
 nav li a {
-    display: block;
     color: white;
-    padding: 14px 140px;
 }
 
 nav li a:hover {
@@ -65,11 +122,11 @@ nav li a.active {
     background-color: #04AA6D;
 }
 
-.navtext{
-    padding-top: 0px;
+nav{
+    margin-bottom:30px;
 }
 
-/* NOT NAV */
+/* FONTS */
 
 h1{
     font-family:bokor;
@@ -87,7 +144,15 @@ p{
     font-size:16pt;
 }
 
+/* LAYOUT */
+
 .boxhead{
+    color:#056905;
+    margin-bottom:-5px;
+}
+
+.drinktitle{
+    font-size:26px;
     color:#056905;
     margin-bottom:-5px;
 }
@@ -97,7 +162,7 @@ p{
 }
 
 .about{
-    margin-top:30px;
+    margin:30px;
 }
 
 #reviews{
