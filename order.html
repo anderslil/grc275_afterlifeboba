@@ -19,89 +19,137 @@
         <link href="https://fonts.googleapis.com/css2?family=Bokor&display=swap" rel="stylesheet">
     </head>
     
-    <body>
-    
-        <header>
-                <nav>
-                    <ul class="menu">
-                        <li><a href="index.html"><img src ="assets/Logo.svg" width= 50px></a></li>
-                        <li class="navtext"><a href="about.html">About</a></li>
-                        <li class="navtext"><a href="menu.html">Menu</a></li>
-                        <li class="navtext"><a href="order.html">Order</a></li>
-                    </ul>
-                </nav>
-            </header>
-        
-        <div class="container-fluid">
-        
-        <h1 class="pagetitle"><img src="assets/af_icons_cross_white.svg" width="40px">CONTACT US TODAY<img src="assets/af_icons_cross_white.svg" width="40px"></h1>
-                <p>Reach out to us today and our team will be in contact with you soon.</p>
+           <body>
+               <header>
+                   <nav class="navbar navbar-expand-lg navbar-dark">
+                      <a class="navbar-brand" href="index.html"> <img class="logo" src="assets/Logo.svg" alt="A black and white illustration of a girl holding a steaming mug of tea. Half of her face and one of her hands are skeletal.">Afterlife Tea and Boba Room</a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                          <div class="collapse navbar-collapse w-100 order-3 dual-collapse2" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                              <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="menu.html">Menu</a>
+                              </li>
+                              <li class="nav-item active">
+                                <a class="nav-link" href="order.html">Order<span class="sr-only">(current)</span></a>
+                              </li>
+                            </ul>
+                          </div>
+                    </nav>
+               </header>
+               
+               <div class="container-fluid">
+               
+               <!--- CONTACT --->
+               
+                   <h1 class="section-title"><img src="assets/af_icons_cross_white.svg" alt="A white cross graphic." width="40px">CONTACT US TODAY<img src="assets/af_icons_cross_white.svg" alt="A white cross graphic." width="40px"></h1>
+                    <p>Reach out to us today and our team will be in contact with you soon.</p>
 
                 <div class="row">
-                        <div class="col" style="background-color:#BCDBBC">
-                            <h1 class="boxhead">LOCATION</h1>
-                            <p class="box">4568 Spring Mountain Rd #10, Las Vegas, NV</p>
+                        <div class="triple-box col" style="background-color:#BCDBBC">
+                            <h1 class="box-title">LOCATION</h1>
+                            <p class="box-body">4568 Spring Mountain Rd #10, Las Vegas, NV</p>
+                            <button class="box-button"><a href="https://maps.app.goo.gl/qVsjsJGVxBNCBaBn7" target="_blank">GOOGLE MAPS</a></button>
                         </div>
 
-                        <div class="col" style="background-color:#BCDBBC">
-                            <h1 class="boxhead">EMAIL</h1>
-                            <p class="box">afterlifeteaandboba@gmail.com</p>
+                        <div class="triple-box col" style="background-color:#BCDBBC">
+                            <h1 class="box-title">EMAIL</h1>
+                            <p class="box-body">afterlifeteaandboba@gmail.com</p>
+                            <button class="box-button"><a href="mailto:afterlifeteaandboba@gmail.com" target="_blank">EMAIL HERE</a></button>
                         </div>
 
-                        <div class="col" style="background-color:#BCDBBC">
-                            <h1 class="boxhead">PHONE</h1>
-                            <p class="box">(725) 204-1990</p>
+                        <div class="triple-box col" style="background-color:#BCDBBC">
+                            <h1 class="box-title">PHONE</h1>
+                            <p class="box-body">(725) 204-1990</p>
+                            <button class="box-button"><a href="tel:+17252041990" target="_blank">CALL NOW</a></button>
                         </div>
                     </div>
                     
-        <h1 class="pagetitle"><img src="assets/af_icons_cross_white.svg" width="40px">HOURS OF OPERATION<img src="assets/af_icons_cross_white.svg" width="40px"></h1>
-            <p class="schedule">MON-FRI: 12PM - 8PM
-            <br>SAT: 12PM - 9PM
-            <br>SUN: CLOSED </p>
+                <!--- HOURS --->
+                
+                <h1 class="pagetitle"><img src="assets/af_icons_cross_white.svg" alt="A white cross graphic." width="40px">HOURS OF OPERATION<img src="assets/af_icons_cross_white.svg" alt="A white cross graphic." width="40px"></h1>
+                    <p class="schedule">MON-FRI: 12PM - 8PM
+                    <br>SAT: 12PM - 9PM
+                    <br>SUN: CLOSED </p>
+                    
+                <!--- FORM --->
+                <h1><img src="assets/af_icons_cross_white.svg" width="40px">SEND US A MESSAGE<img src="assets/af_icons_cross_white.svg" width="40px"></h1>
+                      <div class="row" style="background-color:#056905" class="about">
+                            <div class="col-lg-4">
+                               <div class="container">
+                                <form action="/action_page.php">
+                                    <fieldset>
+                                        <ul>
+                                            <li>
+                                                <label for="form-name">Name:</label>
+                                                <input type="text" name="customername">
+                                            </li>
+                                            
+                                            <li>
+                                                <label for="form-email">Email:</label>
+                                                <input type="text" name="email">
+                                                </li>
+                                            
+                                            <li>
+                                                <label for="form-tel">Phone:</label>
+                                                <input type="text" name="telephone">
+                                            </li>
+                                            
+                                            <li>
+                                               <label for="message">Message</label>
+                                                <textarea name="instructions" rows="4" columns="100" maxlength="1000" placeholder="No more than 1000 characters long."></textarea>
+                                            </li>
+                                        </ul>
+
+                                        <input type="submit" value="Submit">
+                                    </fieldset>
+                                </form>
+                                </div>
+                        </div>
+
+                            <div class="col-lg-8">
+                                <!-- Elfsight Google Maps | Untitled Google Maps -->
+                                    <script src="https://elfsightcdn.com/platform.js" async></script>
+                                    <div class="elfsight-app-1bb7e412-fb9f-4f98-8bc5-afeb73c4f82c" data-elfsight-app-lazy></div>
+                            </div>
+                        </div>
+               
+               </div>
+               
+            </body>
             
-        <h1><img src="assets/af_icons_cross_white.svg" width="40px">SEND US A MESSAGE<img src="assets/af_icons_cross_white.svg" width="40px"></h1>
-          <div class="row" style="background-color:#056905" class="about">
-                <div class="col">
-                   <div class="responsiveform">
-                    <form>
-                        <fieldset>
-                            <ul>
-                                <li><label for="form-name">Name:</label> <input type="text" name="customername" id= "form-name"></li>
-                                <li><label for="form-email">Email:</label> <input type="email" name="email" id= "form-email"></li>
-                                <li><label for="form-tel">Phone:</label> <input type="tel" name="telephone" id= "form-tel"></li>
-                                <li>Message:<br>
-                                <textarea name="instructions" rows="4" columns="60" maxlength="400" id="form-story" placeholder="No more than 400 characters long."></textarea></li>
-                            </ul>
-                            
-                            <input type="submit" value="Submit">
-                            
-                        </fieldset>
-                    </form>
+            <footer>
+                <ul>
+                    <li class="col-lg-10">4568 Spring Mountain Rd #10, Las Vegas, NV | <a href="mailto:afterlifeteaandboba@gmail.com" target="_blank">afterlifeteaandboba@gmail.com</a> | (725) 204-1990
+                    </li>
+                    <div class="socials col-lg-2">
+                        <li>
+                            <a href="https://www.instagram.com/afterlifebobalv/?hl=en" target="_blank"><img src="assets/aft_social__Instagram.svg" alt="" width="30px"></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100090615877715" target="_blank"><img src="assets/aft_social__Facebook.svg" alt="" width="30px"></a>
+                        </li>
+
+                        <li>
+                        <a href="https://www.yelp.com/biz/afterlife-tea-and-boba-room-las-vegas" target="_blank"><img src="assets/aft_social__Yelp.svg" alt="" width="30px"></a>
+                        </li>
+
+                        <li>
+                        <a href="https://goo.gl/maps/Yg85rim5CAMTJDFK6" target="_blank"><img src="assets/aft_social__Google.svg"s alt="" width="30px"></a>
+                        </li>
                     </div>
-            </div>
-
-                <div class="col">
-                    <!-- Elfsight Google Maps | Untitled Google Maps -->
-<script src="https://elfsightcdn.com/platform.js" async></script>
-<div class="elfsight-app-1bb7e412-fb9f-4f98-8bc5-afeb73c4f82c" data-elfsight-app-lazy></div>
-                </div>
-            </div>
-           
+                </ul>
             
-        </div>
-        
-       </body>
-
-
-    <footer>
-        <ul>
-            <li class="address">4568 Spring Mountain Rd #10, Las Vegas, NV | <a href="mailto:afterlifeteaandboba@gmail.com">afterlifeteaandboba@gmail.com</a> | (725) 204-1990</li>
-            <li class="socials"><a href="https://goo.gl/maps/Yg85rim5CAMTJDFK6"><img src="assets/aft_social__Google.svg"s alt="" width="30px"></a></li>
-            <li class="socials"><a href="https://www.yelp.com/biz/afterlife-tea-and-boba-room-las-vegas"><img src="assets/aft_social__Yelp.svg" alt="" width="30px"></a></li>
-            <li class="socials"><a href="https://www.facebook.com/profile.php?id=100090615877715"><img src="assets/aft_social__Facebook.svg" alt="" width="30px"></a></li>
-            <li class="socials"><a href="https://www.instagram.com/afterlifebobalv/?hl=en"><img src="assets/aft_social__Instagram.svg" alt="" width="30px"></a></li>
-        </ul>
-        <p class="copyright">Copyright 2025-2026 Afterlife Tea and Boba Room, All Rights Reserved | <a href="https://veganfoodlasvegas.com/sitemap.xml">Sitemap</a> | <a href="https://veganfoodlasvegas.com/accessibility_page"> Accessibility Statement</a></p>
-    </footer>
-
+            <p class="copyright">Copyright 2025-2026 Afterlife Tea and Boba Room, All Rights Reserved | <a href="https://veganfoodlasvegas.com/sitemap.xml" target="_blank">Sitemap</a> | <a href="https://veganfoodlasvegas.com/accessibility_page" target="_blank"> Accessibility Statement</a></p>
+            
+          </footer>
+            
 </html>

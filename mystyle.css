@@ -1,132 +1,42 @@
-/* Custom CSS */
+/* NAVBAR */
+
+nav{
+    background-color:#056905;
+    font-family:bokor;
+}
+
+nav a, .navbar-brand{
+    font-size:25px;
+    text-align: center;
+}
+
+.logo{
+    width:50px;
+    margin: 20px;
+}
+
+/* BODY */
 
 body{
     background-color: black;
 }
 
-/* Carousel */
-
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
-
-.carousel-item {
-  transition: transform .3s ease-in-out,-webkit-transform .3s ease-in-out
-}
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 75%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-.herotitle{
-    font-size: 3vw;
-}
-
-.herobody{
-    font-size: 1.5vw;
-}
-
-.herobutton{
-    width:100%;
-    font-size:2.5vw;
-    background-color:#BCDBBC;
-    color:#056905;
-    font-family:bokor;
-    padding: 8px 16px;
-    text-decoration: none;
-    border-radius: 15px;
-}
-
-/* Not Carousel */
-
 .container-fluid{
-    padding: 0px 90px 0px 90px
+    padding: 0px 90px;
 }
 
 .row{
     padding:15px;
-    margin-bottom:30px;
     max-width:100%;
     max-height:auto;
 }
 
-.col{
-    width:100%;
+.col,{
+    flex-direction:row;
     margin: 15px;
     padding:20px;
-}
-
-.col-order{
-    margin: 15px;
-    padding:20px;
-    max-width:63%
-}
-
-.imgresp{
     width: 100%;
-    height: auto;
 }
-
-.test{
-    clear:left;
-}
-
-/* NAV */
-.menu{
-    width: 100%;
-    height: 90px;
-    margin: auto;
-    list-style-type: none;
-    background-color: #056905;
-    font-family:bokor;
-    text-decoration: none;
-}
-
-nav a {
-    font-size: 42px;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-}
-
-nav li {
-    float: left;
-    width: 25%;
-    height: 100%;
-}
-
-nav li a {
-    color: white;
-}
-
-nav li a:hover {
-  background-color: #BCDBBC;
-}
-
-nav li a:hover:not(.active) {
-    background-color: #BCDBBC;
-    text-decoration: none;
-    color: #111;
-}
-
-nav li a.active {
-    background-color: #04AA6D;
-}
-
-nav{
-    margin-bottom:30px;
-}
-
-/* FONTS */
 
 h1{
     font-family:bokor;
@@ -144,64 +54,155 @@ p{
     font-size:16pt;
 }
 
-/* LAYOUT */
-
-.boxhead{
-    color:#056905;
-    margin-bottom:-5px;
-}
-
-.drinktitle{
-    font-size:26px;
-    color:#056905;
-    margin-bottom:-5px;
-}
-
-.boxsubhead{
-    color:#056905;
-}
-
-.about{
-    margin:30px;
-}
-
-#reviews{
-    justify-content: center;
-    margin-bottom: 50px;
-}
-
-.box{
+small{
+    font-family:baskerville;
     color:#707070;
 }
-
-.leftfloat{
-   float:left; 
+.on-green{
+    color:#BCDBBC;
 }
 
-.rightfloat{
-    float:right;
+/* HOME */
+
+/* Carousel */
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+.carousel-item {
+    transition: transform .3s ease-in-out,-webkit-transform .3s ease-in-out
 }
 
-.pagetitle{
+.carousel-caption{
+    text-align: right;
+}
+
+/* Welcome */
+
+.section-title{
     margin-top:30px;
 }
 
-.schedule{
-    color:#BCDBBC;
+.triple-box{
+    flex-direction:row;
+    margin: 15px;
+    padding:20px;
+    padding-bottom:70px;
+    width: 100%;
+}
+
+.box-title{
+    color:#056905;
+    margin-bottom:-5px;
+}
+
+.box-body{
+    color:#707070;
+}
+
+.centered{
+    margin: 15px;
+    padding:20px;
     text-align: center;
 }
 
-/* FORM */
-.responsive-form {
-    max-width: 600px;
-    width: 100%;
-    background-color: #BCDBBC;
-    border-radius: 4px;
-    padding: 20px;
+button{
+    background-color:#056905;
+    font-family:bokor;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 15px;
 }
 
-fieldset{
+.box-button{
+    font-size:16pt;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.page-button{
+    font-size:32pt;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+button a{
+    color:white;
+}
+
+button a:hover{
+    color:#BCDBBC;
+    text-decoration:none;
+}
+
+.img-resp{
+    width:100%;
+    height:auto;
+}
+
+/* Order with Us */
+
+.col-lg-8, .col-lg-4{
+    padding:20px;
+}
+
+.box-button-sequel{
+    font-size:32pt;
+    float:right;
+    background-color:#BCDBBC;
+}
+
+.box-button-sequel a{
+    color:#056905;
+}
+
+.box-button-sequel a:hover{
+    color:#707070;
+}
+
+/* ABOUT */
+
+#our-story{
+    margin-top:30px;
+}
+
+/* MENU */
+
+.drink-title{
+    font-size:26pt;
+    color:#056905;
+    margin-bottom:-5px;
+}
+
+.menu-box{
+    margin: 15px;
+    padding:20px;
+}
+
+.menu-button{
+    float: right;
+    font-size:32pt;
+}
+
+/* ORDER */
+
+.schedule{
+    font-size:26pt;
+    color:#BCDBBC;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Form */
+
+.container{
     background-color: #BCDBBC;
+    border-radius: 5px;
+    padding: 20px;
+    padding-left:10px;
 }
 
 fieldset li{
@@ -211,77 +212,62 @@ fieldset li{
     font-size:16pt;
 }
 
-label[for=form-name] {
-    margin-top:40px
-}
-
-input{
-    width:90%;
-    margin:0px 0;
+input[type=text], textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px; 
+  resize: vertical
 }
 
 input[type=submit] {
-    width:30%;
-    font-size:30px;
     background-color:#056905;
     color:white;
     font-family:bokor;
-    padding: 8px 16px;
-    margin: 50px 30px;
     text-decoration: none;
-}
-
-textarea {
-  width: 90%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  resize: none;
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-top:55px;
+    float:right;
 }
 
 /* FOOTER */
 
 footer{
     background-color: #056905;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.copyright{
-    font-family:baskerville;
     color:white;
-    float:none;
-    text-align: center;
-    font-size: 12px;
+    overflow: hidden;
+    padding: 15px 0px;
+    margin-top:30px;
 }
-
-/* SOCIALS */
 
 footer ul {
     list-style-type: none;
-    overflow: hidden;
-    margin-right: 90px;
-    margin-top: 10px;
+    display: flex;
+    font-family:baskerville;
 }
 
-footer a{
+footer a {
+    color: white;
     text-decoration: none;
-    color:white;
 }
 
 footer a:hover{
     color:white;
 }
 
-.address{
-    font-family:baskerville;
-    color:white;
-    margin-left: 90px;
-    float:left;
+.socials{
+    list-style-type: none;
+    display: flex;
 }
 
-.socials{
-    float:right;
-    margin-right:20px;
+footer li{
+    padding-right:5px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    padding: 0px 90px;
 }

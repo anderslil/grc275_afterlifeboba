@@ -19,80 +19,122 @@
         <link href="https://fonts.googleapis.com/css2?family=Bokor&display=swap" rel="stylesheet">
     </head>
     
-    <body>
-    
-        <header>
-                <nav>
-                    <ul class="menu">
-                        <li><a href="index.html"><img src ="assets/Logo.svg" width= 50px></a></li>
-                        <li class="navtext"><a href="about.html">About</a></li>
-                        <li class="navtext"><a href="menu.html">Menu</a></li>
-                        <li class="navtext"><a href="order.html">Order</a></li>
-                    </ul>
-                </nav>
-            </header>
-        
-        <div class="container-fluid">
-            <div class="row" style="background-color:#056905" class="about">
-                <div class="col">
-                    <h1><img src="assets/af_icons_cross_white.svg" width="40px">OUR STORY<img src="assets/af_icons_cross_white.svg" width="40px"></h1>
-                    <p>Afterlife Tea And Boba Room is the only 100% vegan cafe in Las Vegas, NV, offering a wide variety of delicious options to suit every taste. We have been in business since December 2022. Our drinks are made with the finest ingredients and are always crafted to perfection. Whether you’re looking for a sweet treat for breakfast, a flavorful beverage for the afternoon, or a gift for a friend, we have the perfect drink for you.</p>
-                    <p>At Afterlife Tea And Boba Room, we believe that visiting a cafe should be an experience, which is why we have created a warm and inviting atmosphere for you to enjoy. You can come in and enjoy our Lending Library, where you can take a book or leave one! Or you can take a look at our Artist Nook where local artists sell their crafts! Whether you come with friends or family, we guarantee you’ll leave feeling satisfied.</p>
-                    <p>Our cafe specializes in serving coffee, milk teas, bubble teas, smoothies, fruit teas, and more! Our menu is considerate of many different palates, and you are sure to find something to enjoy on our menu. You’ll be able to taste the passion our team has for crafting drinks in every sip! At Afterlife Tea And Boba Room, we have Happy Hour (Buy One Get One 50% off) every day that we are open. Visit our boba cafe today to find out why we are the best in town!</p>
+           <body>
+               <header>
+                   <nav class="navbar navbar-expand-lg navbar-dark">
+                      <a class="navbar-brand" href="index.html"> <img class="logo" src="assets/Logo.svg" alt="A black and white illustration of a girl holding a steaming mug of tea. Half of her face and one of her hands are skeletal.">Afterlife Tea and Boba Room</a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                          <div class="collapse navbar-collapse w-100 order-3 dual-collapse2" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                              <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item active">
+                                <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="menu.html">Menu</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="order.html">Order</a>
+                              </li>
+                            </ul>
+                          </div>
+                    </nav>
+               </header>
+               
+               <div class="container-fluid">
+               
+               <!--- OUR STORY --->
+               
+                   <div class="row" id="our-story" style="background-color:#056905">
+                        <div class="col-lg-4">
+                            <h1><img src="assets/af_icons_cross_white.svg" alt="A white cross graphic." width="40px">OUR STORY<img src="assets/af_icons_cross_white.svg" alt="A white cross graphic." width="40px"></h1>
+                            <p>Afterlife Tea And Boba Room is the only 100% vegan cafe in Las Vegas, NV, offering a wide variety of delicious options to suit every taste. We have been in business since December 2022. Our drinks are made with the finest ingredients and are always crafted to perfection. Whether you’re looking for a sweet treat for breakfast, a flavorful beverage for the afternoon, or a gift for a friend, we have the perfect drink for you.</p>
+                            <p>At Afterlife Tea And Boba Room, we believe that visiting a cafe should be an experience, which is why we have created a warm and inviting atmosphere for you to enjoy. You can come in and enjoy our Lending Library, where you can take a book or leave one! Or you can take a look at our Artist Nook where local artists sell their crafts! Whether you come with friends or family, we guarantee you’ll leave feeling satisfied.</p>
+                            <p>Our cafe specializes in serving coffee, milk teas, bubble teas, smoothies, fruit teas, and more! Our menu is considerate of many different palates, and you are sure to find something to enjoy on our menu. You’ll be able to taste the passion our team has for crafting drinks in every sip! At Afterlife Tea And Boba Room, we have Happy Hour (Buy One Get One 50% off) every day that we are open. Visit our boba cafe today to find out why we are the best in town!</p>
+                        </div>
+
+                        <div class="col-lg-8">
+                            <img class="img-resp" src="assets/ourstory.jpg">
+                            <small class="on-green">From left to right: Jojo (employee,) two employees, and Reina (owner.)</small>
+                        </div>
+                    </div>
+                    
+                <!--- VALUES --->
+              
+                  <div class="row">
+                    <div class="triple-box col" style="background-color:#BCDBBC">
+                        <h1 class="box-title"><img src="assets/af_icons_women.svg" alt="A graphic of a cup of tea being poured. The tea is shaped like the female icon. " width="60px">WOMEN OWNED</h1>
+                        <p class="box-body">We foster an inclusive and supportive environment that values diversity.</p>
+                        <button class="box-button"><a href="https://www.instagram.com/p/DNlMx8rRBCB/" target="_blank">SEE MORE</a></button>
+                    </div>
+
+                    <div class="triple-box col" style="background-color:#BCDBBC">
+                        <h1 class="box-title"><img src="assets/af_icons_vegan.svg" alt="A graphic of a cup of tea with a leaf as the handle." width="60px">100% VEGAN</h1>
+                        <p class="box-body">We are a 100% plant-based boba shop. We do not use any non-dairy creamers or any powders that contain milk. We take great care to ensure that our products are vegan-friendly.</p>
+                        <button class="box-button"><a href="https://www.instagram.com/p/DKyGoSpRWaY/" target="_blank">SEE MORE</a></button>
+                    </div>
+
+                    <div class="triple-box col" style="background-color:#BCDBBC">
+                        <h1 class="box-title"><img src="assets/af_icons_lgbt.svg" alt="A graphic of two cups of tea being poured. The tea creates a heart shape." width="60px">LGBTQIA+ FRIENDLY</h1>
+                        <p class="box-body">At Afterlife Tea And Boba Room, we promote inclusivity and diversity, creating an environment where everyone feels welcome and respected.</p>
+                        <button class="box-button"><a href="https://www.instagram.com/p/DLOt1BQuTRU/" target="_blank">SEE MORE</a></button>
+                    </div>
                 </div>
-
-                <div class="col">
-                    <img src="assets/ourstory.jpg" class="rightfloat">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col" style="background-color:#BCDBBC">
-                    <h1 class="boxhead"><img src="assets/af_icons_women.svg" width="60px">WOMEN OWNED</h1>
-                    <p class="box">We foster an inclusive and supportive environment that values diversity.</p>
-                </div>
-
-                <div class="col" style="background-color:#BCDBBC">
-                    <h1 class="boxhead"><img src="assets/af_icons_vegan.svg" width="60px">100% VEGAN</h1>
-                    <p class="box">We are a 100% plant-based boba shop. We do not use any non-dairy creamers or any powders that contain milk. We take great care to ensure that our products are vegan-friendly.</p>
-                </div>
-
-                <div class="col" style="background-color:#BCDBBC">
-                    <h1 class="boxhead"><img src="assets/af_icons_lgbt.svg" width="60px">LGBTQIA+ FRIENDLY</h1>
-                    <p class="box">At Afterlife Tea And Boba Room, we promote inclusivity and diversity, creating an environment where everyone feels welcome and respected.</p>
-                </div>
-            </div>
-
-            <div class="row" style="background-color:#056905">
-
-                <div class="col">
-                    <img src="assets/businesscards_crop2.jpg" class="leftfloat">
-                </div>
-
-                <div class="col">
-                    <h1><img src="assets/af_icons_cross_white.svg" width="40px">OUR MISSION<img src="assets/af_icons_cross_white.svg" width="40px"></h1>
-                    <p>At Afterlife Tea and Boba Room, we aim not only to offer delicious boba drinks but also to support the community. We host many community events at the shop and support local artists. Without the community, we wouldn't have the success that we do, so we try to ensure that everyone feels welcomed and supported.</p>
-                </div>
-            </div>
-
-            <h1><img src="assets/af_icons_cross_white.svg" width="40px">WHAT OUR CUSTOMERS SAY<img src="assets/af_icons_cross_white.svg" width="40px"></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. </p>
+                
+            <!--- MISSION --->
+              
+              <div class="row" style="background-color:#056905">
+                        <div class="col-lg-8">
+                            <img class="img-resp" src="assets/community_crop.jpg" alt="Several cups of Afterlife drinks, including boba and refershers.">
+                            <small class="on-green">Some of our drinks, including the Butterfly Lemonade(left.)</small>
+                        </div>
+                        
+                        <div class="col-lg-4">
+                            <h1><img src="assets/af_icons_cross_white.svg" alt="A white cross graphic." width="40px">OUR MISSION<img src="assets/af_icons_cross_white.svg" alt="A white cross graphic." width="40px"></h1>
+                            <p>At Afterlife Tea and Boba Room, we aim not only to offer delicious boba drinks but also to support the community. We host many community events at the shop and support local artists. Without the community, we wouldn't have the success that we do, so we try to ensure that everyone feels welcomed and supported.</p>
+                        </div>
+                    </div>
+                    
+            <!-- TESTIMONIALS -->
+              
+              <h1 class="section-title"><img src="assets/af_icons_cross_white.svg" alt="A white cross graphic." width="40px">WHAT OUR CUSTOMERS SAY<img src="assets/af_icons_cross_white.svg" alt="A white cross graphic." width="40px"></h1>
             <!-- Elfsight Google Reviews | Afterlife Boba -->
                 <script src="https://elfsightcdn.com/platform.js" async></script>
                 <div class="elfsight-app-21f98ec0-0b7c-4407-8c4b-3ef4e5160f83" data-elfsight-app-lazy></div>
-        </div>
-    
-    </body>
-    
-    <footer>
-        <ul>
-            <li class="address">4568 Spring Mountain Rd #10, Las Vegas, NV | <a href="mailto:afterlifeteaandboba@gmail.com">afterlifeteaandboba@gmail.com</a> | (725) 204-1990</li>
-            <li class="socials"><a href="https://goo.gl/maps/Yg85rim5CAMTJDFK6"><img src="assets/aft_social__Google.svg"s alt="" width="30px"></a></li>
-            <li class="socials"><a href="https://www.yelp.com/biz/afterlife-tea-and-boba-room-las-vegas"><img src="assets/aft_social__Yelp.svg" alt="" width="30px"></a></li>
-            <li class="socials"><a href="https://www.facebook.com/profile.php?id=100090615877715"><img src="assets/aft_social__Facebook.svg" alt="" width="30px"></a></li>
-            <li class="socials"><a href="https://www.instagram.com/afterlifebobalv/?hl=en"><img src="assets/aft_social__Instagram.svg" alt="" width="30px"></a></li>
-        </ul>
-        <p class="copyright">Copyright 2025-2026 Afterlife Tea and Boba Room, All Rights Reserved | <a href="https://veganfoodlasvegas.com/sitemap.xml">Sitemap</a> | <a href="https://veganfoodlasvegas.com/accessibility_page"> Accessibility Statement</a></p>
-    </footer>
+               
+               </div>
+               
+            </body>
+            
+            <footer>
+            <ul>
+                <li class="col-lg-10">4568 Spring Mountain Rd #10, Las Vegas, NV | <a href="mailto:afterlifeteaandboba@gmail.com" target="_blank">afterlifeteaandboba@gmail.com</a> | (725) 204-1990
+                </li>
+                <div class="socials col-lg-2">
+                    <li>
+                        <a href="https://www.instagram.com/afterlifebobalv/?hl=en" target="_blank"><img src="assets/aft_social__Instagram.svg" alt="" width="30px"></a>
+                    </li>
 
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100090615877715" target="_blank"><img src="assets/aft_social__Facebook.svg" alt="" width="30px"></a>
+                    </li>
+
+                    <li>
+                    <a href="https://www.yelp.com/biz/afterlife-tea-and-boba-room-las-vegas" target="_blank"><img src="assets/aft_social__Yelp.svg" alt="" width="30px"></a>
+                    </li>
+
+                    <li>
+                    <a href="https://goo.gl/maps/Yg85rim5CAMTJDFK6" target="_blank"><img src="assets/aft_social__Google.svg"s alt="" width="30px"></a>
+                    </li>
+                </div>
+            </ul>
+            
+            <p class="copyright">Copyright 2025-2026 Afterlife Tea and Boba Room, All Rights Reserved | <a href="https://veganfoodlasvegas.com/sitemap.xml" target="_blank">Sitemap</a> | <a href="https://veganfoodlasvegas.com/accessibility_page" target="_blank"> Accessibility Statement</a></p>
+            
+          </footer>
+            
 </html>
